@@ -18,6 +18,11 @@ function App() {
           </Tab>
           <Tab label="Payments">I'm using Payments tab</Tab>
           <Tab label="Setting">I'm using Setting tab</Tab>
+          <Tab label="Dashboard">I'm using Dashboard tab</Tab>
+          <Tab label="Feed">I'm using Feed tab</Tab>
+          <Tab label="Lines">I'm using Lines tab</Tab>
+          <Tab label="Profile">I'm using Profile tab</Tab>
+          <Tab label="FAQ">I'm using FAQ tab</Tab>
         </TabBar>
 
         <p>
