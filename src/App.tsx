@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "./logo.svg";
-import styles from "./app.module.scss";
+import styles from "./App.module.scss";
 import { TabBar, Tab } from "./components";
 
 function App() {
