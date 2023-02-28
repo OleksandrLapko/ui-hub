@@ -1,0 +1,48 @@
+.app {
+  text-align: center;
+}
+
+.appLogo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.tab {
+  background-color: greenyellow;
+}
+
+.activeTab {
+  background-color: rebeccapurple;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .app-logo {
+    animation: app-logo-spin infinite 20s linear;
+  }
+}
+
+.appHeader {
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.appLink {
+  color: #61dafb;
+}
+
+@keyframes app-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
